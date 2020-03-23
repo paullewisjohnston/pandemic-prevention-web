@@ -15,7 +15,7 @@ function App() {
           <div style={{overflow:'hidden', height:'100%', width:'90%', zIndex:98, position: 'absolute', transform:'translate(-50%, -50%)', left:'50%', top:'70%'}}>
               <img src={logo} className="App-logo" alt="logo" />
                 <h1>Pandemic Prevention</h1>
-                <p>Coming Soon- IOS & Android</p>
+                <p>Coming Soon: IOS & Android</p>
           </div>
         </div>
       </header>
