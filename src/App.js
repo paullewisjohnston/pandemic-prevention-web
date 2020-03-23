@@ -4,9 +4,8 @@ import './App.css';
 import hero from './pp_hero.mov';
 
 function App() {
-  const vh = window.innerHeight;
   return (
-    <div className="App" height={vh} width='100vw'>
+    <div className="App" height='100vh' width='100vw' overflow='hidden'>
       <header className="App-header">
         <div style={{overflow:'hidden', height:'100%', width:'100%', zIndex:99, position: 'absolute'}}>
           <video maxheight='100%' maxwidth='100%' style={{ position: 'absolute', transform:'translate(-50%, -50%)', left:'50%', top:'50%'}} autoPlay loop muted>
